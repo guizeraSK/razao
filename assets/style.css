@@ -1,7 +1,78 @@
 body{
-    background-image:URL(https://live.staticflickr.com/65535/52077791117_1a00d59a85_b.jpg);
-    background-size: cover;
-    margin: 3em;
+  margin: 0;
+  border: 0;
+  background-color: #121212;
+  color: white;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+/*---Main---*/
+main{
+    color: #c4c4c4;
+}
+/*---Header---*/
+header{
+    
+    z-index: 100;
+    width: 100%;
+}
+nav {
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    background-color: #151515;
+    border-bottom: 2px solid #272727;
+    font-weight: bold;
+    height: 80px;
+    transition: 0.3s;
+}
+nav.fixed {
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 30px;
+    padding-top: 20px;
+}
+nav ul li::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #00d2df;
+    margin-top: 5px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+nav ul li:hover::after {
+    transform: scaleX(1);
+}
+nav p {
+    padding: 10px;
+    font-size: 1.3rem;
+    width: 100%;
+}
+nav p a {
+    color: #00d2df;
+    transition: 0.3s;
+}
+nav p a:hover {
+    color: rgba(147, 88, 247, 1);
+}
+ul{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+/*-- Links --*/
+a{
+    color: white;
+    text-decoration: none;
 }
 
 .rodape{
@@ -13,6 +84,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 6px;
 }
 
 img{
@@ -37,20 +109,31 @@ img:hover{
     display: flex;
 }
 
-.momentos{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    
-}
-
 .inicio-text{
     background-color: rgba(148, 51, 75, 0.37);
     color: white;
     text-align: center;
+    border-radius: 6px;
 }
 
 .momentos-text{
     background-color: rgba(148, 51, 75, 0.37);
     color: white;
     text-align: center;
+    border-radius: 6px;
+}
+
+.lista1{
+    padding: 2em;
+    display: flex;
+}
+
+.lista2{
+    padding: 2em;
+    display: flex;
+}
+
+.lista3{
+    padding: 2em;
+    display: flex;
 }
