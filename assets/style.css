@@ -13,6 +13,7 @@ main{
 /*---Header---*/
 header{
     
+    position: fixed;
     z-index: 100;
     width: 100%;
 }
@@ -136,4 +137,22 @@ img:hover{
 .lista3{
     padding: 2em;
     display: flex;
+}
+
+.texto{
+    font-family: 'Baloo Tamma', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    padding: 30px;
+    margin: auto;
+}
+texto:hover{ 
+    transform: scale(1.5);
+    background: linear-gradient(to right, rgba(196, 192, 192, 0.438) 50%, rgba(22, 160, 133,1.0) 50%);
+    background-size: 200%;
+    background-position: 0 0;
+    display: inline;
+    transition: .5s ease-in-out;
 }
