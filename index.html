@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,100 +8,156 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Razão do meu viver</title>
 </head>
+
 <body>
-        <!--Sidebar-->
-        <header>
-            <nav data-menu="sidebar">
+    <!--Sidebar-->
+    <header>
+        <nav data-menu="sidebar">
             <p><a href="#home">&lsaquo;G-A/&rsaquo;</a></p>
             <button data-menu="button" aria-controls="menu"></button>
             <ul data-menu="list" id="menu">
                 <a href="#inicio">
-                <li>Ínicio</li>
-              </a>
+                    <li>Ínicio</li>
+                </a>
                 <a href="#momentos">
-                  <li>Momentos</li>
+                    <li>Momentos</li>
                 </a>
                 <a href="#texto">
-                <li>Texto</li>
-              </a>
-              <a href="#embrevre">
-                <li>Em Breve</li>
-              </a>
-              </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="principal" id="home">
-        <div class="inicio-text" id="inicio">
-            <h1>Ínicio da nossa jornada</h1>
-        </div>
-        <div class="inicio">
-            <img src="assets/img/inicio/img1.jpg" alt="img1">
-            <img src="assets/img/inicio/img2.jpg" alt="img2">
-            <img src="assets/img/inicio/img3.jpg" alt="img3">
-            <img src="assets/img/inicio/img4.jpeg" alt="img4">
-            <img src="assets/img/inicio/img5.jpg" alt="img5">
-        </div>
+                    <li>Texto</li>
+                </a>
+                <a href="#embrevre">
+                    <li>...</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="principal" id="home">
+            <div class="inicio-text" id="inicio">
+                <h1>Ínicio da nossa jornada</h1>
+            </div>
+            <div class="inicio">
+                <ul class="slider">
+                    <li>
+                        <input type="radio" id="slide1" name="slide" checked>
+                        <label for="slide1"></label>
+                        <img src="assets/img/inicio/img1.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide2" name="slide">
+                        <label for="slide2"></label>
+                        <img src="assets/img/inicio/img2.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide3" name="slide">
+                        <label for="slide3"></label>
+                        <img src="assets/img/inicio/img3.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide4" name="slide">
+                        <label for="slide4"></label>
+                        <img src="assets/img/inicio/img4.jpeg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide5" name="slide">
+                        <label for="slide5"></label>
+                        <img src="assets/img/inicio/img5.jpg" />
+                    </li>
+                </ul>
+                <!--<img src="assets/img/inicio/img1.jpg" alt="img1">
+                <img src="assets/img/inicio/img2.jpg" alt="img2">
+                <img src="assets/img/inicio/img3.jpg" alt="img3">
+                <img src="assets/img/inicio/img4.jpeg" alt="img4">
+                <img src="assets/img/inicio/img5.jpg" alt="img5">-->
+            </div>
 
-        <div class="momentos-text" id="momentos">
-            <h1>Momentos que vivemos juntos</h1>
-        </div>
+            <div class="momentos-text" id="momentos">
+                <h1>Momentos que vivemos juntos</h1>
+            </div>
 
-        <div class="lista1">
-            <img src="assets/img/momentos/img1.jpg" alt="img1">
-            <img src="assets/img/momentos/img2.jpg" alt="img2">
-            <img src="assets/img/momentos/img3.jpg" alt="img3">
-            <img src="assets/img/momentos/img4.jpg" alt="img4">
-            <img src="assets/img/momentos/img5.jpg" alt="img5">
-        </div>
-        <div class="lista2">
-            <img src="assets/img/momentos/img6.jpg" alt="img6">
-            <img src="assets/img/momentos/img7.jpg" alt="img7">
-            <img src="assets/img/momentos/img8.jpg" alt="img8">
-            <img src="assets/img/momentos/img9.jpg" alt="img9">
-            <img src="assets/img/momentos/img10.jpg" alt="img10">
-        </div>
-        <div class="lista3">
-            <img src="assets/img/momentos/img11.jpeg" alt="img11">
-            <img src="assets/img/momentos/img12.jpg" alt="img12">
-            <img src="assets/img/momentos/img13.jpg" alt="img13">
-            <img src="assets/img/momentos/img14.jpg" alt="img14">
-            <img src="assets/img/momentos/img15.jpg" alt="img15">
-        </div>
-        <div class="texto">
-        <p class="textinho">
-            As vezes eu fico a me perguntar, como que encontrei alguém tão incrível quanto você,
-             parece mentira mas mesmo nesses poucos meses que estamos juntos eu já sinto que posso 
-             dizer que te amo. Sei que ainda não te entendo completamente, mas sei que com o tempo vou
-              conseguir, vou saber decifrar quando tu estiver braba, triste, alegre, entediada, cansada,
-               entre outros, e o porque que eu quero te entender?! Ai que ta, não sei explicar eu só 
-               sinto que quero saber mais e mais de ti, pra realmente fazer parte da tua e poder falar,
-                "eu conheço ela". Eu não sei por que mas eu te admiro, admiro tua beleza, teu jeito,
-                 teu sorriso, admiro você em si, por isso as vezes fico te encarando e te olhando
-                  do nada, é sem querer, quando vejo já estou ali, paralisado te admirando vendo o amor
-                   da minha vida.<br>
-                   Eu posso falar várias e várias coisas que me fazem te amar e mesmo assim vai parecer
+            <div class="lista1">
+                <!--<ul class="slider2">
+                    <li>
+                        <input class="slider2" type="radio" id="slide1" name="slide" checked>
+                        <label for="slide1"></label>
+                        <img src="assets/img/momentos/img1.jpg" />
+                    </li>
+                    <li>
+                        <input class="slider2" type="radio" id="slide2" name="slide">
+                        <label for="slide2"></label>
+                        <img src="assets/img/momentos/img2.jpg" />
+                    </li>
+                    <li>
+                        <input class="slider2" type="radio" id="slide3" name="slide">
+                        <label for="slide3"></label>
+                        <img src="assets/img/momentos/img3.jpg" />
+                    </li>
+                    <li>
+                        <input class="slider2" type="radio" id="slide4" name="slide">
+                        <label for="slide4"></label>
+                        <img src="assets/img/momentos/img4.jpeg" />
+                    </li>
+                    <li>
+                        <input class="slider2" type="radio" id="slide5" name="slide">
+                        <label for="slide5"></label>
+                        <img src="assets/img/momentos/img5.jpg" />
+                    </li>
+                </ul>-->
+                <img src="assets/img/momentos/img1.jpg" alt="img1">
+                <img src="assets/img/momentos/img2.jpg" alt="img2">
+                <img src="assets/img/momentos/img3.jpg" alt="img3">
+                <img src="assets/img/momentos/img4.jpg" alt="img4">
+                <img src="assets/img/momentos/img5.jpg" alt="img5">
+            </div>
+            <div class="lista2">
+                <img src="assets/img/momentos/img6.jpg" alt="img6">
+                <img src="assets/img/momentos/img7.jpg" alt="img7">
+                <img src="assets/img/momentos/img8.jpg" alt="img8">
+                <img src="assets/img/momentos/img9.jpg" alt="img9">
+                <img src="assets/img/momentos/img10.jpg" alt="img10">
+            </div>
+            <div class="lista3">
+                <img src="assets/img/momentos/img11.jpeg" alt="img11">
+                <img src="assets/img/momentos/img12.jpg" alt="img12">
+                <img src="assets/img/momentos/img13.jpg" alt="img13">
+                <img src="assets/img/momentos/img14.jpg" alt="img14">
+                <img src="assets/img/momentos/img15.jpg" alt="img15">
+            </div>
+            <div class="texto" id="texto">
+                <p class="textinho">
+                    As vezes eu fico a me perguntar, como que encontrei alguém tão incrível quanto você,
+                    parece mentira mas mesmo nesses poucos meses que estamos juntos eu já sinto que posso
+                    dizer que te amo. Sei que ainda não te entendo completamente, mas sei que com o tempo vou
+                    conseguir, vou saber decifrar quando tu estiver braba, triste, alegre, entediada, cansada,
+                    entre outros, e o porque que eu quero te entender?! Ai que ta, não sei explicar eu só
+                    sinto que quero saber mais e mais de ti, pra realmente fazer parte da tua e poder falar,
+                    "eu conheço ela". Eu não sei por que mas eu te admiro, admiro tua beleza, teu jeito,
+                    teu sorriso, admiro você em si, por isso as vezes fico te encarando e te olhando
+                    do nada, é sem querer, quando vejo já estou ali, paralisado te admirando vendo o amor
+                    da minha vida.<br>
+                    Eu posso falar várias e várias coisas que me fazem te amar e mesmo assim vai parecer
                     pouco, por que eu não consigo explicar exatamente o tanto que eu te amo, parece
-                     estranho, por isso as vezes tu acaba falando que não acredita que eu te amo,
-                      mas eu posso te afirmar que eu te amo mais que tudo nesse mundo. E são diversas
-                       coisas que eu amo em ti, diversas mesmo: Eu amo a sua risada, amo o seu cheiro,
-                        amo o seu cabelo, amo quando tu fica irritada, feliz, surpreendida,
-                         amo quando tu ta empolgada pra contar algo, gosto mais ainda quando tu vai falar
-                          e alguém corta sem querer e tu fica assim 😑, amo te ver dormindo
-                          (msm sendo meio psicopata), amo o teu estilo, amo a tua personalidade,
-                           amo quando tu elogia (me sinto mto especial), amo o teu ronco fofo kkkkk,
-                            amo te cuidar, amo estar cntg, amo banziar cntg, amo fofocar cntg,
-                             amo falar mal dos outros cntg ( mas quem somos nós para julgar ),
-                              amo sair cntg, amo beber cntg, eu amo VIVER cntg.
-                               Cada momento que eu passo cntg, se torna um momento mto especial.
-        </p>
-        </div>
-        <!--### Rodapé ###-->
-        <footer class="rodape">TE AMO GATINHA</footer>
-        <audio preload="auto" autoplay controls loop poster>
-            <source src="midia/Cesar-Mc-e-Lourena-POSTURADIN_j0GlWIaAJ1U.mp3" type="audio/mpeg">
-        </audio>
+                    estranho, por isso as vezes tu acaba falando que não acredita que eu te amo,
+                    mas eu posso te afirmar que eu te amo mais que tudo nesse mundo. E são diversas
+                    coisas que eu amo em ti, diversas mesmo: Eu amo a sua risada, amo o seu cheiro,
+                    amo o seu cabelo, amo quando tu fica irritada, feliz, surpreendida,
+                    amo quando tu ta empolgada pra contar algo, gosto mais ainda quando tu vai falar
+                    e alguém corta sem querer e tu fica assim 😑, amo te ver dormindo
+                    (msm sendo meio psicopata), amo o teu estilo, amo a tua personalidade,
+                    amo quando tu elogia (me sinto mto especial), amo o teu ronco fofo kkkkk,
+                    amo te cuidar, amo estar cntg, amo banziar cntg, amo fofocar cntg,
+                    amo falar mal dos outros cntg ( mas quem somos nós para julgar ),
+                    amo sair cntg, amo beber cntg, eu amo VIVER cntg.
+                    Cada momento que eu passo cntg, se torna um momento mto especial.
+                </p>
+            </div>
+            <!--### Rodapé ###-->
+            <footer class="rodape">TE AMO GATINHA</footer>
+            <audio preload="auto" autoplay controls loop poster>
+                <source src="midia/Cesar-Mc-e-Lourena-POSTURADIN_j0GlWIaAJ1U.mp3" type="audio/mpeg">
+            </audio>
         </section>
-        </main>
-    </body>
-    </html>
+    </main>
+</body>
+
+</html>
